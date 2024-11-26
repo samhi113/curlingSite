@@ -69,7 +69,7 @@ This section will break down the pages and components of the web app, specifying
 
    - Description: Who are some celebrities that play curling you might know of?
    - Responsible: Ari
-
+  
 10. **Big Companies in the Sport**
 
    - Description: What does each company offer the sport?
