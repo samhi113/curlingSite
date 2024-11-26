@@ -44,6 +44,18 @@ This section will break down the pages and components of the web app, specifying
    - Description: The physics of curling. How does curling on ice work? Do the brushes help?
    - Responsible: Ari
 
+5. **The Olympic Teams**
+   - Description: A page all about the diffrent olymipic teams and some info about them 
+   - Responsible: Salmane
+
+6. **Rules Of The Game**
+   - Description: a page discrbing the rules of the game and how it's played  
+   - Responsible: Salmane
+
+7. **The Tools Of The Game**
+   - Description: a page discrbing Equipments used to play the game
+   - Responsible: Salmane
+
 ### Sources Cited
 
 To be added later!
