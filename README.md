@@ -29,7 +29,7 @@ This section will break down the pages and components of the web app, specifying
 
    - Description: The main landing page of the application.
    - Responsible: Sam (Nav), Salmane, Ari
-   - 
+   
 2. **Rules of the Game**
 
    - Description: A page describing the rules of the game and how it's played.
