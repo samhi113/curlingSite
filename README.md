@@ -28,21 +28,22 @@ This section will break down the pages and components of the web app, specifying
 1. **Home Page**
 
    - Description: The main landing page of the application.
-   - Responsible: {Team Member Name}
+   - Responsible: Sam (Nav), Salmane, Ari
 
-2. **User Profile Page**
+2. **Olympic Team**
 
-   - Description: Where users can view and edit their profile information.
-   - Responsible: {Team Member Name}
+   - Description: All about the United States’ women’s and men’s Olympic Teams, who were the 2024 players, how many they have, and more!
+   - Responsible: Ari
 
-3. **Contact Page**
+3. **Iconic Players**
 
-   - Description: Where users can send contact messages to the site admins.
-   - Responsible: {Team Member Name}
+   - Description: Who are some celebrities that play curling you might know of? 
+   - Responsible: Ari
 
-4. **{Additional Pages}**
-   - {Repeat this pattern for other pages of the app}
+4. **The Science Behind Curling**
+   - Description: The physics of curling. How does curling on ice work? Do the brushes help?
+   - Responsible: Ari
 
 ### Sources Cited
 
-This section will list any places where you pulled information from to generate content for your site. If an LMS was used then put you prompt below the link.
+To be added later!
