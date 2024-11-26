@@ -47,17 +47,17 @@ This section will break down the pages and components of the web app, specifying
 
 5. **The Olympic Teams**
 
-   - Description: A page all about the diffrent olymipic teams and some info about them
+   - Description: A page all about the different Olympic teams and information about them.
    - Responsible: Salmane
 
-6. **Rules Of The Game**
+6. **Rules of the Game**
 
-   - Description: a page discrbing the rules of the game and how it's played
+   - Description: A page describing the rules of the game and how it's played.
    - Responsible: Salmane
 
-7. **The Tools Of The Game**
+7. **The Tools of the Game**
 
-   - Description: a page discrbing Equipments used to play the game
+   - Description: A page describing the equipment used to play the game.
    - Responsible: Salmane
 
 8. **Wood v Ice**
