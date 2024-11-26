@@ -30,7 +30,7 @@ This section will break down the pages and components of the web app, specifying
    - Description: The main landing page of the application.
    - Responsible: Sam (Nav), Salmane, Ari
 
-2. **Olympic Team**
+2. **USA Olympic Team**
 
    - Description: All about the United States’ women’s and men’s Olympic Teams, who were the 2024 players, how many they have, and more!
    - Responsible: Ari
