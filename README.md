@@ -72,8 +72,8 @@ This section will break down the pages and components of the web app, specifying
 
 10. **Big Companies in the Sport**
 
-- Description: What does each company offer the sport?
-- Responsible: Sam
+   - Description: What does each company offer the sport?
+   - Responsible: Sam
 
 ### Sources Cited
 
