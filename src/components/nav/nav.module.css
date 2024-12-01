@@ -1,3 +1,8 @@
+.navGapper {
+  width: 100vw;
+  height: 80px;
+}
+
 .nav {
   position: fixed;
   top: 0;
@@ -16,6 +21,7 @@
 .logo {
   position: fixed;
   top: 5px;
+  left: -97.5vw;
 
   display: flex;
   align-items: center;
