@@ -31,6 +31,9 @@ export default function Nav () {
                 <Link href="/rules">Rules</Link>
             </li>
             <li>
+                <Link href="/tools">tools</Link>
+            </li>
+            <li>
                 <a href="/2">2</a>
             </li>
             <li>

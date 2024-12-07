@@ -76,5 +76,4 @@ This section will break down the pages and components of the web app, specifying
       - Responsible: Sam
 
 ### Sources Cited
-
-To be added later!
+[ChatGPT] prompt {what are the rules of the game of currling}
