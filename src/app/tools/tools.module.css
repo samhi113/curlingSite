@@ -14,7 +14,7 @@
     font-size: 80px;
 }
 
-.infoBlock {
+.picBlock {
     width: 50%;
     height: 250px;
     /* background-color: aqua; */
@@ -27,7 +27,7 @@
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
-
+    margin-top: 20px;
 }
 
 .infoBlock h2 {
@@ -43,35 +43,7 @@
     color: white;
 }
 
-.infoBlock3 {
-    width: 50%;
-    min-height: 250px;
-    /* background-color: aqua; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    margin-top: 30px;
-    animation: appear 5s linear;
-}
 
-.infoBlock3 h2 {
-    font-size: 40px;
-    color: white;
-}
-
-.infoBlock3 ul {
-    width: 70%;
-    /* background-color: antiquewhite; */
-    font-size: 20px;
-    color: white;
-}
-
-.boldText {
-    font-weight: bold;
-    font-size: 25px;
-}
 @keyframes appear{
     from{
         opacity: 0;
@@ -90,8 +62,21 @@
     justify-content: center;
     align-items: center;
     background-color: #333388;
+
     
 }
 
 
+/* tool component styling  */
 
+.pic {
+    width: 350px;
+    box-shadow: 10px 10px 15px rgba(255, 0, 0, 0.5);
+}
+
+.toolName {
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}

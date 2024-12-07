@@ -1,0 +1,27 @@
+.pic {
+    width: 350px;
+    box-shadow: 10px 10px 15px rgba(255, 0, 0, 0.5);
+}
+
+.toolName {
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.picBlock {
+    width: 50%;
+    height: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 15px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    margin-top: 20px;
+}

@@ -34,7 +34,7 @@
 .infoBlock h2 {
     font-size: 40px;
     color: white;
-    
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .infoBlock p {
@@ -42,6 +42,7 @@
     /* background-color: antiquewhite; */
     font-size: 20px;
     color: white;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .infoBlock3 {
@@ -55,11 +56,13 @@
     padding: 5px;
     margin-top: 30px;
     animation: appear 5s linear;
+    
 }
 
 .infoBlock3 h2 {
     font-size: 40px;
     color: white;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .infoBlock3 ul {
