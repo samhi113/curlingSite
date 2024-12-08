@@ -102,7 +102,7 @@ export default function Olympics() {
                         WHO WON IN 2024?
                     </button>
                 </Link>
-            </section>
+            </section> 
         </main>
     )
 }

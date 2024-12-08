@@ -31,7 +31,7 @@ export default function Nav () {
                 <Link href="/rules">Rules</Link>
             </li>
             <li>
-                <Link href="/tools">tools</Link>
+                <Link href="/tools">Tools</Link>
             </li>
             <li>
                 <Link href="/olympics">Olympics</Link>
