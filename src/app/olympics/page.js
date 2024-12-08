@@ -1,6 +1,7 @@
 
 import styles from "./olympics.module.css"
 import TeamCard from "@/components/nav/teamCard/teamCard";
+import Link from "next/link";
 
 export default function Olympics() {
     const teams = [
@@ -96,6 +97,11 @@ export default function Olympics() {
                         />
                     ))}
                 </div>
+                <Link href="/olympics/winner">
+                    <button className={styles.wButton}>
+                        WHO WON IN 2024?
+                    </button>
+                </Link>
             </section>
         </main>
     )
