@@ -1,0 +1,23 @@
+.wzone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.title {
+    font-size: 50px;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.wtitle {
+    font-size: 45px;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.pic {
+    box-shadow: 5px 5px 3px rgb(0, 0, 0.3);
+}

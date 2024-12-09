@@ -1,0 +1,101 @@
+.hero {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/rule-board.jpg');
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 80px;
+}
+
+.infoBlock {
+    width: 50%;
+    height: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 15px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+
+}
+
+.infoBlock h2 {
+    font-size: 40px;
+    color: white;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.infoBlock p {
+    width: 70%;
+    /* background-color: antiquewhite; */
+    font-size: 20px;
+    color: white;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.infoBlock3 {
+    width: 50%;
+    min-height: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 30px;
+    animation: appear 5s linear;
+    
+}
+
+.infoBlock3 h2 {
+    font-size: 40px;
+    color: white;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.infoBlock3 ul {
+    width: 70%;
+    /* background-color: antiquewhite; */
+    font-size: 20px;
+    color: white;
+}
+
+.boldText {
+    font-weight: bold;
+    font-size: 25px;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333388;
+    
+}
+
+
+

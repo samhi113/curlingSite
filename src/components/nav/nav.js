@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import navStyles from "./nav.module.css";
 import React, { useState } from 'react';
 
@@ -27,7 +28,13 @@ export default function Nav () {
                 <a href="/">Home</a>
             </li>
             <li>
-                <a href="/1">1</a>
+                <Link href="/rules">Rules</Link>
+            </li>
+            <li>
+                <Link href="/tools">Tools</Link>
+            </li>
+            <li>
+                <Link href="/olympics">Olympics</Link>
             </li>
             <li>
                 <a href="/2">2</a>
