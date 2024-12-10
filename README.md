@@ -77,7 +77,7 @@ This section will break down the pages and components of the web app, specifying
 
 11. **Account**
 
-- Description:
+- Description: Users can sign in, sign up and view their account to allow them to access additional resources/information on the site.
 - Responsible: Ari
 
 ### Sources Cited
