@@ -1,24 +1,39 @@
 @font-face {
-    font-family: tommy;
-    src: url("../../fonts/madeTommy.otf");
+  font-family: tommy;
+  src: url("../../fonts/madeTommy.otf");
 }
 
-.mainHeader{
-    height: 700px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('/curlingScience.webp');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 100px;
-
+.mainHeader {
+  height: 700px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("/curlingScience.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
 }
-.headerText{
-    color: #CC2244;
-    font-family: tommy;
-    font-size: 80px;
-    width: 20%;
+.headerText {
+  color: #cc2244;
+  font-family: tommy;
+  font-size: 80px;
+  width: 20%;
 }
-.container{
-    padding: 100px 200px;
-    background-color: #CCDDEE;
+.container {
+  padding: 100px 200px;
+  background-color: #ccddee;
+  margin: 0 auto;
+}
+.txtContain {
+  margin: 0 auto;
+  width: 70%;
+  padding: 50px;
+  background: #f5f7fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 50px;
+}
+.txtContain:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
