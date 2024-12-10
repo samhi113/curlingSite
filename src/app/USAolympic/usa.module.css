@@ -20,19 +20,34 @@
 }
 .container{
     padding: 100px 200px;
-    background-color: #CCDDEE;
+    background-color: #333388;
 }
 
 .womensTeam{
     display: flex;
     margin-bottom: 100px;
+    
 }
 .teamImg{
     height: 300px;
+    border-radius: 8px;
 }
 .womensTeam summary{
     padding: 50px;
+    width: 60%;
+  padding: 50px;
+  background: #f5f7fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 50px;
+  margin-left: 20px;
 }
+.womensTeam summary:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
 
 .mensTeam{
     display: flex;
@@ -40,4 +55,18 @@
 
 .mensTeam summary{
     padding: 50px;
+    width: 60%;
+  padding: 50px;
+  background: #f5f7fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 50px;
+  margin-left: 20px;
+
 }
+
+.mensTeam summary:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }

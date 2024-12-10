@@ -34,14 +34,18 @@ export default function Nav () {
                 <Link href="/tools">Tools</Link>
             </li>
             <li>
+                <a href="/science">Science</a>
+            </li>
+            <li>
                 <Link href="/olympics">Olympics</Link>
             </li>
             <li>
-                <a href="/2">2</a>
+                <a href="/USAolympic">USA Olympics</a>
             </li>
             <li>
-                <a href="/3">3</a>
+                <a href="/iconicPlayers">Iconic Players</a>
             </li>
+            
             </ul>
         </nav>
         <div className={navStyles.navGapper}></div>
