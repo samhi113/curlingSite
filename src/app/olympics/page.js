@@ -1,6 +1,6 @@
 
 import styles from "./olympics.module.css"
-import TeamCard from "@/components/nav/teamCard/teamCard";
+import TeamCard from "@/components/teamCard/teamCard";
 import Link from "next/link";
 
 export default function Olympics() {
