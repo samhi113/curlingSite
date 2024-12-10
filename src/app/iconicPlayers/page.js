@@ -10,18 +10,14 @@ export default function iconic() {
       </header>
       <article className={pageStyles.container}>
         <div className={pageStyles.txtContain}>
-          <h3>Jarden Allen</h3>
+          <h1>Jarden Allen</h1>
           <div className={pageStyles.imgContain}>
             <img
               className={pageStyles.img}
               src="../../allenCurling.webp"
               alt="Jared Allen curling"
             ></img>
-            <img
-              className={pageStyles.img}
-              src="../../allenFootball.jpg"
-              alt="Jared Allen curling"
-            ></img>
+            
           </div>
 
           <p>
@@ -31,7 +27,7 @@ export default function iconic() {
           </p>
         </div>
         <div className={pageStyles.txtContain}>
-          <h3>The Iceman</h3>
+          <h1>The Iceman</h1>
           <div className={pageStyles.imgContain}>
             <img
               className={pageStyles.img}
@@ -46,18 +42,18 @@ export default function iconic() {
           </p>
         </div>
         <div className={pageStyles.txtContain}>
-          <h3>Huff and Puff</h3>
+          <h1>Joanne Courtney</h1>
           <div className={pageStyles.imgContain}>
             <img
               className={pageStyles.img}
-              src="../../theIceman.jpg"
-              alt="The Iceman, Allan Hackner"
+              src="../../courtney.jpg"
+              alt="Joanne Courtney"
             ></img>
             
           </div>
 
           <p>
-          hhh
+          Joanne Courtney is a Canadian curler known for her accomplishments in the sport, particularly in the women's curling discipline. As a member of the Canadian national team, she has represented her country at numerous prestigious events, including the World Curling Championships and the Winter Olympics. Courtney gained recognition for her skills as a third on the team, contributing to both offensive and defensive strategies on the ice. She has been part of successful teams, earning multiple national titles and accolades throughout her career. In addition to her curling achievements, Courtney is also admired for her sportsmanship and her positive influence on the curling community.
           </p>
         </div>
       </article>
