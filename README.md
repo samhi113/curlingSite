@@ -75,6 +75,11 @@ This section will break down the pages and components of the web app, specifying
     - Description: What does each company offer the sport?
     - Responsible: Sam
 
+11. **Account**
+
+- Description:
+- Responsible: Ari
+
 ### Sources Cited
 
 [ChatGPT] prompt {what are the rules of the game of currling}
