@@ -1,14 +1,12 @@
-import { ClerkProvider, SignedIn, SignedOut, SignOutButton, SignUp, ClerkLoaded } from '@clerk/nextjs';
+import { ClerkProvider, SignedIn, SignedOut, SignOutButton, SignUp, ClerkLoaded, UserProfile } from '@clerk/nextjs';
 
 export default function Account() {
   return (
     <ClerkProvider>
       <ClerkLoaded>
         <SignedIn>
-          <main>
-            <h1>Signed In</h1>
-            <SignOutButton />
-          </main>
+          <UserProfile></UserProfile>
+          <SignOutButton></SignOutButton>
         </SignedIn>
         <SignedOut>
           <SignUp routing="hash" />
