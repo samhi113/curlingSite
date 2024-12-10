@@ -81,3 +81,4 @@ This section will break down the pages and components of the web app, specifying
 [ChatGPT] prompt {what tools are used for currling}
 
 [ChatGPT](https://chatgpt.com/share/675791eb-897c-800c-9605-0847a4f6c583)
+[ChatGPT](https://chatgpt.com/share/6757c91b-bf14-800c-954f-bd9f1d2ef0b4)
