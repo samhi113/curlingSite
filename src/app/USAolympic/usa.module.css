@@ -1,0 +1,43 @@
+@font-face {
+    font-family: tommy;
+    src: url("../../fonts/madeTommy.otf");
+}
+
+.mainHeader{
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('/curlingTeam.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+
+}
+.headerText{
+    color: #CC2244;
+    font-family: tommy;
+    font-size: 80px;
+    width: 20%;
+}
+.container{
+    padding: 100px 200px;
+    background-color: #CCDDEE;
+}
+
+.womensTeam{
+    display: flex;
+    margin-bottom: 100px;
+}
+.teamImg{
+    height: 300px;
+}
+.womensTeam summary{
+    padding: 50px;
+}
+
+.mensTeam{
+    display: flex;
+}
+
+.mensTeam summary{
+    padding: 50px;
+}
