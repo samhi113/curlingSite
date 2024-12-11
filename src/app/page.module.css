@@ -20,7 +20,7 @@
 
 
 .subTitle {
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     margin-top: 80px;
@@ -32,7 +32,7 @@
     font-size: 40px;
     color: white;
     text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 
@@ -42,25 +42,26 @@
     justify-content: center;
     align-items: center;
     background-color: #333388;
-    padding: 50px;
+    padding: 60px;
 }
 
 .content {
     width: 80%;
     /* background-color: aqua; */
     display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 .pic {
-    width: 500px;
+    height: 300px;
+    width: auto;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .ptext {
     width: 50%;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     display: flex;
