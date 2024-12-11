@@ -12,10 +12,10 @@ export default function Home() {
             </h1>
             </div> 
             <section className={styles.container}>
-                <p className={styles.subTitle}>This Site Is All About Curling</p>
+                <p className={styles.subTitle}>The Man, the Myth, the Legend.</p>
                 <div className={styles.content}>
                   <img className={styles.pic} src='./todd.png'/>
-                  <p className={styles.ptext}>One man shined a light on the sport of curling like no other. In honor of Proffessor Todd, We have made a dedicated website to the sport of curling.</p>
+                  <p className={styles.ptext}>Professor Todd brought attention to the remarkable sport of curling, shining a light on its unique blend of strategy, skill, and tradition like no one else. In his honor, we’ve created a dedicated website to celebrate this incredible game. Our site dives deep into all aspects of curling, including how the sport works, the fascinating science and rich history behind it, and inspiring stories of some of the most famous players who have left their mark on the ice. It’s a tribute to both the sport and the man who helped so many discover its brilliance.</p>
                 </div>
             </section>
     </main>
