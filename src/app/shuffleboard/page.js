@@ -1,4 +1,4 @@
-import TitleCard from "@/components/TitleCard/title";
+import TitleCard from "../../components/TitleCard/TitleCard";
 import * as pageStyles from "./shuffle.module.css";
 
 export default function Shuffleboard() {
