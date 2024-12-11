@@ -37,3 +37,6 @@
   transform: translateY(-10px); /* Slight lift on hover */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
+.button{
+  color: black;
+}
