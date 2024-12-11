@@ -1,7 +1,7 @@
-
-import styles from "./olympics.module.css"
+import styles from "./olympics.module.css";
 import TeamCard from "../../components/teamCard/teamCard";
 import Link from "next/link";
+import { ClerkProvider, SignedIn, SignedOut } from "@clerk/nextjs";
 
 export default function Olympics() {
     const teams = [
@@ -78,31 +78,38 @@ export default function Olympics() {
     ];
 
     return (
-        <main>
-            <div className={styles.hero}>
-            <h1 className={styles.title}> 
-                Curling Olympics
-            </h1>
-            </div> 
-            <section className={styles.container}>
-            <div className={styles.grid}>
-                    {teams.map((team, index) => (
-                        <TeamCard
-                            key={index}
-                            teamName={team.name}
-                            image={team.image}
-                            gold={team.gold}
-                            silver={team.silver}
-                            bronze={team.bronze}
-                        />
-                    ))}
+        <ClerkProvider>
+            <main>
+                <div className={styles.hero}>
+                    <h1 className={styles.title}>Curling Olympics</h1>
                 </div>
-                <Link href="/olympics/winner">
-                    <button className={styles.wButton}>
-                        WHO WON IN 2024?
-                    </button>
-                </Link>
-            </section> 
-        </main>
-    )
+                <section className={styles.container}>
+                    <SignedIn>
+                        <div className={styles.grid}>
+                            {teams.map((team, index) => (
+                                <TeamCard
+                                    key={index}
+                                    teamName={team.name}
+                                    image={team.image}
+                                    gold={team.gold}
+                                    silver={team.silver}
+                                    bronze={team.bronze}
+                                />
+                            ))}
+                        </div>
+                        <Link href="/olympics/winner">
+                            <button className={styles.wButton}>
+                                WHO WON IN 2024?
+                            </button>
+                        </Link>
+                    </SignedIn>
+                    <SignedOut>
+                        <p className={styles.message}>
+                            Please <Link className={styles.button} href="/account">log in</Link> to view the Olympic team details and the winner!
+                        </p>
+                    </SignedOut>
+                </section>
+            </main>
+        </ClerkProvider>
+    );
 }
