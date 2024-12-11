@@ -46,6 +46,9 @@ export default function Nav () {
             <li>
                 <a href="/iconicPlayers">Iconic Players</a>
             </li>
+            <li>
+                <a href="/account">Account</a>
+            </li>
             </ul>
         </nav>);
 }
