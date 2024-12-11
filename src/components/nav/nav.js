@@ -41,13 +41,10 @@ export default function Nav () {
                 <Link href="/olympics">Olympics</Link>
             </li>
             <li>
-                <Link href="/USAolympic">USA Team</Link>
+                <a href="/USAolympic">USA Olympics</a>
             </li>
             <li>
-                <Link href="/iconicPlayers">Icons</Link>
-            </li>
-            <li>
-                <Link href="/companies">Companies</Link>
+                <a href="/iconicPlayers">Iconic Players</a>
             </li>
             </ul>
         </nav>);

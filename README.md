@@ -75,8 +75,16 @@ This section will break down the pages and components of the web app, specifying
     - Description: What does each company offer the sport?
     - Responsible: Sam
 
+11. **Account**
+
+- Description: Users can sign in, sign up and view their account to allow them to access additional resources/information on the site.
+- Responsible: Ari
+
 ### Sources Cited
 
 [ChatGPT] prompt {what are the rules of the game of currling}
 [ChatGPT] prompt {what tools are used for currling}
 [Reddit](https://www.reddit.com/r/Curling/comments/u6to5m/comment/i5cbvf4)
+
+[ChatGPT](https://chatgpt.com/share/675791eb-897c-800c-9605-0847a4f6c583)
+[ChatGPT](https://chatgpt.com/share/6757c91b-bf14-800c-954f-bd9f1d2ef0b4)

@@ -29,3 +29,6 @@ h6,
 p {
   margin-bottom: 16px;
 }
+img {
+  image-rendering: optimizeSpeed;
+}

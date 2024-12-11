@@ -1,0 +1,19 @@
+.container{
+    margin: 0 auto;
+    display: flex;
+    background-color: #CC2244;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: tommy;
+    padding: 50px;
+}
+.button{
+    background-color: #333388;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 50px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
