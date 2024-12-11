@@ -20,7 +20,7 @@ export default function Nav () {
             </div>
             <ul>
             <li>
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
             </li>
             <li>
                 <Link href="/rules">Rules</Link>
@@ -41,10 +41,16 @@ export default function Nav () {
                 <Link href="/olympics">Olympics</Link>
             </li>
             <li>
-                <a href="/USAolympic">USA Olympics</a>
+                <Link href="/USAolympic">USA Olympics</Link>
             </li>
             <li>
-                <a href="/iconicPlayers">Iconic Players</a>
+                <Link href="/iconicPlayers">Iconic Players</Link>
+            </li>
+            <li>
+                <Link href="/companies">Companies</Link>
+            </li>
+            <li>
+                <Link href="/account">Account</Link>
             </li>
             </ul>
         </nav>);

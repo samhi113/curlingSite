@@ -1,0 +1,16 @@
+.html {
+  width: 100vw;
+  padding: 7.5vh 20vw;
+}
+
+.html h3 {
+  padding: 1vh;
+  border-left: #333 solid 3px;
+
+  color: #333;
+  font-size: calc(1.25vw + 1.25vh);
+}
+
+.html ul {
+  margin-left: 2.5vw;
+}
