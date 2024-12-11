@@ -4,17 +4,12 @@ import navStyles from "./nav.module.css";
 import React, { useState } from 'react';
 
 export default function Nav () {
-    
-    const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-    
     const mouseHandler = (event) => {
-        setMousePos({ x: event.clientX, y: event.clientY });
         const relX = (100 * (event.clientX / window.innerWidth));
         document.getElementById("logo").style.left = ((relX - 105) + "vw");
     };
 
-    return (<div onMouseMove={mouseHandler}>
-        <nav className={navStyles.nav}>
+    return (<nav onMouseMove={mouseHandler} className={navStyles.nav}>
             <div className={navStyles.logo} id="logo">
                 <div className={navStyles.outBox}>
                     <div className={navStyles.inBox}></div>
@@ -34,16 +29,26 @@ export default function Nav () {
                 <Link href="/tools">Tools</Link>
             </li>
             <li>
+                <Link href="/shuffleboard">Wood V Ice</Link>
+            </li>
+            <li>
+                <Link href="/history">History</Link>
+            </li>
+            <li>
+                <Link href="/science">Science</Link>
+            </li>
+            <li>
                 <Link href="/olympics">Olympics</Link>
             </li>
             <li>
-                <a href="/2">2</a>
+                <Link href="/USAolympic">USA Team</Link>
             </li>
             <li>
-                <a href="/3">3</a>
+                <Link href="/iconicPlayers">Icons</Link>
+            </li>
+            <li>
+                <Link href="/companies">Companies</Link>
             </li>
             </ul>
-        </nav>
-        <div className={navStyles.navGapper}></div>
-      </div>)
+        </nav>);
 }

@@ -29,12 +29,12 @@ This section will break down the pages and components of the web app, specifying
 
    - Description: The main landing page of the application.
    - Responsible: Sam (Nav), Salmane, Ari
-   
+
 2. **Rules of the Game**
 
    - Description: A page describing the rules of the game and how it's played.
    - Responsible: Salmane
-  
+
 3. **The Tools of the Game**
 
    - Description: A page describing the equipment used to play the game.
@@ -54,7 +54,7 @@ This section will break down the pages and components of the web app, specifying
 
    - Description: The physics of curling. How does curling on ice work? Do the brushes help?
    - Responsible: Ari
-  
+
 7. **The Olympic Teams**
 
    - Description: A page all about the different Olympic teams and information about them.
@@ -69,12 +69,14 @@ This section will break down the pages and components of the web app, specifying
 
    - Description: Who are some celebrities that play curling you might know of?
    - Responsible: Ari
-  
+
 10. **Big Companies in the Sport**
 
-      - Description: What does each company offer the sport?
-      - Responsible: Sam
+    - Description: What does each company offer the sport?
+    - Responsible: Sam
 
 ### Sources Cited
+
 [ChatGPT] prompt {what are the rules of the game of currling}
 [ChatGPT] prompt {what tools are used for currling}
+[Reddit](https://www.reddit.com/r/Curling/comments/u6to5m/comment/i5cbvf4)
