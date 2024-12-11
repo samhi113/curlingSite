@@ -27,7 +27,7 @@
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .infoBlock h2 {
@@ -62,7 +62,7 @@
     justify-content: center;
     align-items: center;
     background-color: #333388;
-
+    padding: 50px;
     
 }
 

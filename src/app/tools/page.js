@@ -29,7 +29,7 @@ export default function Rules(){
                     <Link href="/tools/shoes">
                     <img className={styles.pic} src="/shoes.jpg"/>
                     </Link>
-                    <h2 className={styles.toolName}>shoes
+                    <h2 className={styles.toolName}>Shoes
                     </h2>
                 </div>
             </section>
